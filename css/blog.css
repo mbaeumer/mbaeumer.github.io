@@ -6,7 +6,7 @@ div.container {
 header, footer {
     padding: 1em;
     color: white;
-    background-color: #008c67; /*#ef7414;*/ /*#3c49e3;*/ /*3ce341*/
+    background-color: #009897; /*#008c67;*/ /*#ef7414;*/ /*#3c49e3;*/ /*3ce341*/
     clear: left;
     text-align: center;
 }
@@ -25,7 +25,7 @@ nav ul {
 			
 nav ul a {
     text-decoration: none;
-	color: #008c67;
+	color: #009897; /*#008c67;*/
 }
 
 section {
@@ -36,5 +36,14 @@ section {
 }
 a.top{
 	text-decoration: none;
-	color: #008c67;
+	color: #009897; /*#008c67;*/
+}
+
+h1.title-parent{
+    font-size: 30px;
+	color: #009897; /*#008c67;*/
+}
+
+h1.project-title{
+    font-size: 28px;
 }

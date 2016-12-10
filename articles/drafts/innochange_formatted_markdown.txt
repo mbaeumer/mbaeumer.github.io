@@ -1,4 +1,4 @@
-It is that time of the year again, and why I have given up on new year resolutions
+** It is that time of the year again, and why I have given up on new year resolutions
 
 When I started writing this little text, it was at the end of November. The days are quite short; it is dark when people are off to work and when they get home. The Christmas holidays are 
 just around the corner. The same old game every year.
@@ -14,18 +14,18 @@ Sounds familiar? Feel free to continue reading and maybe you reach the same conc
 Why do new year resolutions fail?
 The reason for failing your resolutions is quite simple in my opinion:
 
-Bad timing!
+**Bad timing!**
 During the Christmas period, most people are stressed but also happy that the year is coming to an end. A lot of stuff has happened, we have worked hard, reached some goals and failed once 
 in a while. When reflecting over the past year, I often find myself focusing on the positive stuff ignoring many of the difficult. While it is important to highlight and be proud of the 
 accomplishments, it can also make me too ambitious and enthusiastic when I set goals for the upcoming year.
 
-Too much time
+**Too much time**
 Another reason why new year resolutions often fail is that they come with an "invite to procrastination": the new year has just started so there is plenty of time left to work on our goals 
 so why should we start working on them right away? Probably you have heard yourself saying something of the following:
-"After the vacation, I will ..."
+*"After the vacation, I will ..."*
 By doing so, we give ourselves an excuse in advance for not reaching the goal.
 
-So where to go from here?
+**So where to go from here?**
 Probably the most important lesson I have learnt during the past years is that vacation has a single and simple purpose:  To relax.
 It is important to switch off for some time, recharge the batteries, dedicate the time to issues that fall a bit short during every day life:
 - family
@@ -35,15 +35,10 @@ It is important to switch off for some time, recharge the batteries, dedicate th
 - and all the other things you never seem to take the time to do during your everyday busy life.
 In other words, vacations are probably not the best time for making larger plans.
 
-Set shorter goals
+**Set shorter goals**
 When it comes to setting and pursuing goals I started planning in shorter terms: In my experience, planning one month ahead seems good enough whereas planning longer periods feels a bit hard 
 as I rarely know what happens three to four months from now. Planning maximum one month ahead helps me to get put things into action, to become more focused and motivated and to minimize the
 risk to procrastinate. At the same time, keeping the scope fairly small makes it easier to react to unexpected circumstances.
-
-Take action
-The main reason for me to make new year resolutions was that I am not really happy with the status quo and I am already aware that we need to (...or should, or want to) change something.
-Having this insight is good and essential. However, action needs to be taken to actually achieve some change. While I was earlier hiding all too often behind a new year resolution, 
-I try to find ways to get started right away.
 Following this approach I reached a couple of goals throughout the year:
 - I started a healthier life style: Better food and more sleep
 - I teach myself Spring Boot in the context of a concrete software project. The result is already deployed in the cloud
@@ -51,7 +46,4 @@ Following this approach I reached a couple of goals throughout the year:
 - I started learning python
 - I even found the time to review a book written by a colleague
 
-So, now it is that time of the year again: The days are quite short and the Christmas holidays are right around the corner. I still need to fix some tasks on my agenda (you know, the 
-"usual suspects" that are probably on everybody´s todo list before the holidays). Then there will be some time to rest before I will aim for new stuff in January.
-Have you already thought about your plans for January?
-
+**What is your New Months Goal for January?**

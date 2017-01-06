@@ -1,12 +1,13 @@
 div.container {
     width: 100%;
     border: 1px solid gray;
+	background-color: #F8F8F9; /*#e1e1e1;*/
 }
 
 header, footer {
     padding: 1em;
     color: white;
-    background-color: #009897; /*#008c67;*/ /*#ef7414;*/ /*#3c49e3;*/ /*3ce341*/
+    background-color: #f05a1a; /*#ea6602;*/ /*#008c67;*/ /*#009897;*/ /*#ef7414;*/ /*#3c49e3;*/ /*3ce341*/
     clear: left;
     text-align: center;
 }
@@ -16,16 +17,19 @@ nav {
     max-width: 180px;
     margin: 0;
     padding: 1em;
+	background-color: #F8F8F9;
 }
 
 nav ul {
+    font-family: "HelveticaNeue";
     list-style-type: none;
     padding: 0;
 }
 			
 nav ul a {
+    font-family: "HelveticaNeue";
     text-decoration: none;
-	color: #009897; /*#008c67;*/
+	color: #f05a1a;
 }
 
 section {
@@ -33,17 +37,19 @@ section {
 	border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
+	background-color: #F8F8F9;
 }
 a.top{
 	text-decoration: none;
-	color: #009897; /*#008c67;*/
+	color: #f05a1a;
 }
 
 h1.title-parent{
+    font-family: "HelveticaNeue";
     font-size: 30px;
-	color: #009897; /*#008c67;*/
+	color: #f05a1a;
 }
 
-h1.project-title{
+h1.project-title{    
     font-size: 28px;
 }

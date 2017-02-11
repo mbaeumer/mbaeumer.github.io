@@ -14,6 +14,8 @@ However, it can get tricky especially when it comes to more complex systems. Pro
 * After the latest change we deployed and got some error in production
 * We can check the log files to see that everything is working
 <br/>
+
+
 While unit testing is no silver bullet, it is still of great value. Pragmatic unit testing is a broad guide for both beginners and advanced developers.
 <br/>
 The books start with some basic startup topics as well as some general test principles such as FIRST, Right-BICEP, and CORRECT.

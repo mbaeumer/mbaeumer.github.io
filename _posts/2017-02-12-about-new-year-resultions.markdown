@@ -23,14 +23,14 @@ Sounds familiar? Feel free to continue reading and maybe you reach the same conc
 
 ## Why do new year resolutions fail?
 The reason for failing your resolutions is quite simple in my opinion:
-** Bad timing! **
+**Bad timing**
 <br/>
 During the Christmas period, most people are stressed but also happy that the year is coming to an end. A lot of stuff has happened, we have worked hard, reached some goals and failed once 
 in a while. When reflecting over the past year, I often find myself focusing on the positive stuff ignoring many of the difficult. While it is important to highlight and be proud of the 
 accomplishments, it can also make me too ambitious and enthusiastic when I set goals for the upcoming year.
 <br/>
 
-** Too much time **
+**Too much time**
 <br/>
 Another reason why new year resolutions often fail is that they come with an "invite to procrastination": the new year has just started so there is plenty of time left to work on our goals 
 so why should we start working on them right away? Probably you have heard yourself saying something of the following:

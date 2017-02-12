@@ -50,7 +50,7 @@ It is important to switch off for some time, recharge the batteries, dedicate th
 * travelling
 * getting back in touch with friends
 * rest
-* ...and all the other things you never seem to take the time to do during your everyday busy life.</li>
+* ...and all the other things you never seem to take the time to do during your everyday busy life.
        
 
 In other words, vacations are probably not the best time for making larger plans.

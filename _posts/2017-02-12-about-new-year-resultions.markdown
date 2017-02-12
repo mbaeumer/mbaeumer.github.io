@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why I have given up on new year resolution"
+title:  "Why I have given up on new year resolutions"
 date:   2017-02-12 23:00:00:00 +0100
 categories: jekyll update
 ---
@@ -22,7 +22,7 @@ The list of such resolutions can be endless, and I have probably made a whole bu
 Sounds familiar? Feel free to continue reading and maybe you reach the same conclusion as I did.
 
 ## Why do new year resolutions fail?
-The reason for failing your resolutions is quite simple in my opinion:
+The reason for failing your resolutions is quite simple in my opinion:<br/>
 **Bad timing**
 <br/>
 During the Christmas period, most people are stressed but also happy that the year is coming to an end. A lot of stuff has happened, we have worked hard, reached some goals and failed once 
@@ -54,12 +54,12 @@ It is important to switch off for some time, recharge the batteries, dedicate th
 
 In other words, vacations are probably not the best time for making larger plans.
 <br/>
-** Set shorter goals **
+**Set shorter goals**<br/>
 When it comes to setting and pursuing goals I started planning in shorter terms: In my experience, planning one month ahead seems good enough whereas planning longer periods feels a bit hard 
 as I rarely know what happens three to four months from now. Planning maximum one month ahead helps me to get put things into action, to become more focused and motivated and to minimize the
 risk to procrastinate. At the same time, keeping the scope fairly small makes it easier to react to unexpected circumstances.
 <br/>
-** Take action **
+**Take action**<br/>
 The main reason for me to make new year resolutions was that I am not really happy with the status quo and I am already aware that we need to (...or should, or want to) change something.
 Having this insight is good and essential. However, action needs to be taken to actually achieve some change. While I was earlier hiding all too often behind a new year resolution, 
 I try to find ways to get started right away.

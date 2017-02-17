@@ -1,15 +1,17 @@
 ---
 layout: page
-title: About
+title: whoami
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Experience
+Software engineer with experience since 2008.
+<br/>
+I have developed software in different industries, e.g. telecommunications, manufacturing, telematics, finances.
+<br/>
+Mostly, I develop in Java, but I have even experience from .Net, Javascript, Visual Basic, Shell Script, and Python
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+# Eduction
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+* Diploma in Business Computing at University of Applied Sciences, Flensburg, Germany, 2007
+* MSc in Software Engineering at Blekinge Intitute of Technology, Ronneby, Sweden, 2008

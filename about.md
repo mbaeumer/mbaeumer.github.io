@@ -3,7 +3,7 @@ layout: page
 title: whoami
 permalink: /about/
 ---
-![](/assets/profil.png | width=400)
+![](/assets/profil.png)
 # Experience
 Software engineer with experience since 2008.
 <br/>

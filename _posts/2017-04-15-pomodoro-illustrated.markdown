@@ -16,9 +16,9 @@ The Pomodoro technique is one method that can be used for that. I will not go in
 * Run a daily retrospective about your activities and accomplishments
 
 
-While I am not a Pomodoro evangelist I really like the technique itself. Pomodoro technique illustrated by Staffan Nöteberg provides a very good introduction. 
+While I am not a Pomodoro evangelist I really like the technique itself. *Pomodoro technique illustrated* by Staffan Nöteberg provides a very good introduction. 
 The author does not only describe Pomodoro in theory, but also gives hands-on advice how to apply it in every day life. While reading the book I thought a couple of times 
-"Hey, I can instantly try this little tweak"
+*"Hey, I can instantly try this little tweak"*
 <br/>
 Personally, I like several parts of the book: One chapter describes in several short subchapters how the brain works, e.g. what causes stress, what makes us distracted 
 and how we can minimize these issues. Another thing I like are the parallels to IT and software development, e.g. working in short cycles, getting continuous feedback and 

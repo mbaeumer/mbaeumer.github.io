@@ -16,7 +16,9 @@ When humans are collaborating, there are quite a few aspects to consider. The ma
 <br/>
 These and other issues might lead to less efficient and even bad collaboration and results that are not that good.
 <br/>
-"Solve problems together", by Marcus Degerman, contains a variety of ideas to achieve good collaboration, clear outputs and decisions. Apart from that 
+*Solve problems together*, by Marcus Degerman, contains a variety of ideas to achieve good collaboration, clear outputs and decisions. Apart from that 
 Marcus presents hands-on advice on how to conduct meetings where people are heard, involved, focused and creative.
 <br/>
 Nicely written, concise and with practical information.
+
+![](/assets/solve-problems.JPG)

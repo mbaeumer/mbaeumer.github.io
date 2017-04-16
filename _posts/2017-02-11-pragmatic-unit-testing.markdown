@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   "Reading list: Pragmatic Unit Testing"
+title:   "Reading list: Pragmatic Unit Testing in Java 8 with JUnit"
 date:    2017-02-11 15:00:00 +0100
 categories: jekyll update
 ---
@@ -16,10 +16,12 @@ However, it can get tricky especially when it comes to more complex systems. Pro
 <br/>
 
 
-While unit testing is no silver bullet, it is still of great value. Pragmatic unit testing is a broad guide for both beginners and advanced developers.
+While unit testing is no silver bullet, it is still of great value. *Pragmatic Unit Testing in Java 8 with JUnit* by Jeff Langr is a broad guide for both beginners and advanced developers.
 <br/>
 The books start with some basic startup topics as well as some general test principles such as FIRST, Right-BICEP, and CORRECT.
 Thereafter, the author even illustrates how good unit testing can contribute to cleaner code and better design.
 <br/>
 Throughout the book the author uses one concrete application as the system under test which makes the different examples less abstract.
-In conclusion, I find this book quite valuable for both getting started as well as reference for the daily work
+In conclusion, I find this book quite valuable for both getting started as well as reference for the daily work.
+
+![](/assets/pragtesting.JPG)

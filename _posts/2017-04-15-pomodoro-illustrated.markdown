@@ -26,3 +26,5 @@ continually improving the way of working.
 <br/>
 To sum up I recommend this book to everyone who is in one way or another struggling with getting things done. As I said, I have not become an evangelist, but the book changed my mindset 
 and my way of working.
+
+![](assets/pomodoro.JPG)

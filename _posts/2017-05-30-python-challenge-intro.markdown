@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python challenge: Introdution"
+title: "Python challenge: Introduction"
 date: 2017-05-30 20:28:24 +0100
 categories: jekyll update
 ---

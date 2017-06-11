@@ -4,7 +4,7 @@ title: "Python challange: warmup exercises"
 date: 2017-06-11 18:32:21 +0100
 categories: jekyll update
 ---
-I decided to start my Python challenge with a unch of warmup exercises simply to get a feeling for the syntax and for how to work with that language
+I decided to start my Python challenge with a bunch of warmup exercises simply to get a feeling for the syntax and for how to work with that language.
 This exercises include:
 
 
@@ -63,7 +63,7 @@ The function's body needs to be indented.
 
 ## Writing a test case
 Usually, Python is not strictly object-oriented. Test cases however are implemented as classes.<br/>
-The following is a test class that contain a test case for the sum function above:<br/>
+The following is a test class that contains a test case for the sum function above:<br/>
 {% highlight python %}
 import unittest
 from sum_function import sum
@@ -76,3 +76,10 @@ if __name__ == '__main__':
   unittest.main()
 {% endhighlight %}
 
+A couple of things are to consider here:
+
+
+* Note that the class SumTestCase inherits from the class TestCase, that is imported from the module unittest.<br/>
+* The function under test (in this case _sum_) is imported
+* The function test_sum performs the actual test by calling _self.assertTrue_
+* {% highlight python%} __name__ {% endhighlight %} is a built-in variable that checks if the script is executed directly or if it is imported by another module. If it is executed directly the main funtion of unittest will be called. In other words, the test case will be executed.

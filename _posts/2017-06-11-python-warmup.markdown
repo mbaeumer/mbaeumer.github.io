@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python challange: warmup exercises"
+title: "Python challenge: warmup exercises"
 date: 2017-06-11 18:32:21 +0100
 categories: jekyll update
 ---
@@ -82,4 +82,4 @@ A couple of things are to consider here:
 * Note that the class SumTestCase inherits from the class TestCase, that is imported from the module unittest.<br/>
 * The function under test (in this case _sum_) is imported
 * The function test_sum performs the actual test by calling _self.assertTrue_
-* {% highlight python%} __name__ {% endhighlight %} is a built-in variable that checks if the script is executed directly or if it is imported by another module. If it is executed directly the main funtion of unittest will be called. In other words, the test case will be executed.
+* ' __name__' is a built-in variable that checks if the script is executed directly or if it is imported by another module. If it is executed directly the main funtion of unittest will be called. In other words, the test case will be executed.

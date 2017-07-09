@@ -16,13 +16,13 @@ Download using the maven dependency plugin
 
 {% highlight bash %}
 mvn dependency:copy-dependencies
-{% endhighligh %}
+{% endhighlight %}
 
 ## Start the Swing client
 
 {% highlight bash %}
 java -cp hsqldb.jar org.hsqld.util.DatabaseManagerSwing
-{% endhighligh %}
+{% endhighlight %}
 
 ...then use the following settings:</br>
 URL: jdbc:hsqldb:file:fxlink</br>

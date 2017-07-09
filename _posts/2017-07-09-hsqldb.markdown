@@ -25,7 +25,7 @@ java -cp hsqldb.jar org.hsqld.util.DatabaseManagerSwing
 {% endhighlight %}
 
 ...then use the following settings: <br/>
-URL: jdbc:hsqldb:file:fxlink </br>
+URL: jdbc:hsqldb:file:fxlink <br/>
 User and Password: as configured <br/>
 
 ...and then you are done!

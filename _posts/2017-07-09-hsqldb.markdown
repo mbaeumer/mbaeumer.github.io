@@ -4,7 +4,7 @@ title: "Note to myself: Connecting to hsqldb outside of an application"
 date: 2017-07-09 17:24:58 +0100
 categories: jekyll update
 ---
-Just a short note to myself on how to connect to hsqldb:</br>
+Just a short note to myself on how to connect to hsqldb:<br/>
 
 # The problem
 In one JavaFX application I use hsqldb as database. Now I wanted to connect to that database from outside the application, simply to try out  some queries prior to implementing the fullstack feature.
@@ -24,9 +24,9 @@ mvn dependency:copy-dependencies
 java -cp hsqldb.jar org.hsqld.util.DatabaseManagerSwing
 {% endhighlight %}
 
-...then use the following settings: </br>
+...then use the following settings: <br/>
 URL: jdbc:hsqldb:file:fxlink </br>
-User and Password: as configured </br>
+User and Password: as configured <br/>
 
 ...and then you are done!
 

@@ -9,43 +9,43 @@ Here are some functions that can be applied on strings. Let's take "lorem ipsum"
 lorem = "lorem ipsum"
 {% endhighlight %}
 
-Printing a string
+# Printing a string
 {% highlight python %}
 print("Dummy string:  ", lorem)
 {% endhighlight %}
 
-Getting the length of a string
+# Getting the length of a string
 {% highlight python %}
 print("Length: ",len(lorem))
 {% endhighlight %}
 
-Capitalize a string
+# Capitalize a string
 {% highlight python %}
 print("Capitalized: " + lorem.capitalize())
 {% endhighlight %}
 
-Checking if a string ends in a certain way
+# Checking if a string ends in a certain way
 {% highlight python %}
 print("endswith 'ipsum': " + str(lorem.endswith("ipsum")))
 {% endhighlight %}
 
-Checking if a string is lower case
+# Checking if a string is lower case
 {% highlight python %}
 print("islower: " + str(lorem.islower()))
 {% endhighlight %}
 
-Checking if a string is numeric
+# Checking if a string is numeric
 {% highlight python %}
 print("isnumeric: " + str(lorem.isnumeric()))
 {% endhighlight %}
 
-Checking if a string contains a white space
+# Checking if a string contains a white space
 {% highlight python %}
 print("isspace: " + str(lorem.isspace()))
 {% endhighlight %}
 
 
-Testing for string equality
+# Testing for string equality
 {% highlight python %}
 lorem2 = "lorem ipsum"
 if lorem == 'lorem ipsum':
@@ -54,13 +54,13 @@ else:
   print("The strings are not equal")
 {% endhighlight %}
 
-Checking if a string contains certain characters
+# Checking if a string contains certain characters
 {% highlight python %}
 print("m" in lorem)
 print("a" in lorem)
 {% endhighlight %}
 
-Checking at which index a certain substring appears
+# Checking at which index a certain substring appears
 {% highlight python %}
 print("lorem", lorem.find("lorem"))
 print("rem", lorem.find("rem"))
@@ -80,19 +80,21 @@ while i < len(lorem):
 
 I know that there are more fancy ways to do that, but I start with a readable version.
   
-Splitting a string
+# Splitting a string
 {% highlight python %}
 splitted = lorem.split(" ")
 for word in splitted:
   print(word)
 {% endhighlight %}
 
-Removing a character in a string
+Here, the string will be splitted at each white space. You can use other separators as well.
+
+# Removing a character in a string
 {% highlight python %}
 new_lorem = lorem.replace("m", "")
 {% endhighlight %}
 
-Inserting a character into a string
+# Inserting a character into a string
 {% highlight python %}
 new_lorem = lorem[:5] + "-" + lorem[6:]
 {% endhighlight %}

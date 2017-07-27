@@ -98,3 +98,7 @@ new_lorem = lorem.replace("m", "")
 {% highlight python %}
 new_lorem = lorem[:5] + "-" + lorem[6:]
 {% endhighlight %}
+
+# Further resources
+[My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)
+

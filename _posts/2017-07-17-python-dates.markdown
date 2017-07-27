@@ -45,3 +45,5 @@ print("seconds: ", (date2 - date1).seconds)
 print("microseconds: ", (date2 - date1).microseconds)
 {% endhighlight %}
 
+# Further resoources
+[My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)

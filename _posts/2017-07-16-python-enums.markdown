@@ -16,7 +16,7 @@ class Status(Enum):
 {% endhighlight %}
 
 # Importing an enumeration
-Provided the enumeration above is created and sved in a file named status.py, you can import it as follows:
+Provided the enumeration above is created and saved in a file named status.py, you can import it as follows:
 {% highlight python %}
 from status import Status
 {% endhighlight %}
@@ -69,3 +69,7 @@ print(isinstance(Status.OPEN, Status))
 {% highlight python %}
 print("Status.OPEN has the numeric value %d " % (Status.OPEN.value))
 {% endhighlight %}
+
+# Further resources
+[My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)
+

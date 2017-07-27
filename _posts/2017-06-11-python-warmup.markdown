@@ -83,3 +83,6 @@ A couple of things are to consider here:
 * The function under test (in this case _sum_) is imported
 * The function test_sum performs the actual test by calling _self.assertTrue_
 * ' __name__' is a built-in variable that checks if the script is executed directly or if it is imported by another module. If it is executed directly the main funtion of unittest will be called. In other words, the test case will be executed.
+
+## Further resources
+[My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)

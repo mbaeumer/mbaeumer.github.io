@@ -48,17 +48,31 @@ print("isspace: " + str(lorem.isspace()))
 # Testing for string equality
 {% highlight python %}
 lorem2 = "lorem ipsum"
-if lorem == 'lorem ipsum':
+if lorem == "lorem ipsum":
   print("The strings are equal")
 else:
   print("The strings are not equal")
 {% endhighlight %}
 
-# Checking if a string contains certain characters
+This check is quite simple, but somewhat incorrect as it is case-sensitive.
+If you want to compare two strings without case-sensitivity, the following is more suitable:
+{% highlight python %}
+lorem2 = "lorem ipsum"
+if lorem.lower() == lorem2.lower():
+  print("The strings are equal")
+else:
+  print("The strings are not equal")
+{% endhighlight %}
+
+
+
+# Checking if a string contains a certain substring
 {% highlight python %}
 print("m" in lorem)
 print("a" in lorem)
 {% endhighlight %}
+
+This will return true, if the string contains the substring in question. 
 
 # Checking at which index a certain substring appears
 {% highlight python %}
@@ -70,7 +84,7 @@ print("abc", lorem.find("abc"))
 
 This will return a number indicating where the substring in question occurs. If the number is -1, then the substring is not present.
 
-Iterate through a string
+# Iterating through a string
 {% highlight python %}
 i = 0
 while i < len(lorem):
@@ -78,7 +92,14 @@ while i < len(lorem):
   i = i +1
 {% endhighlight %}
 
-I know that there are more fancy ways to do that, but I start with a readable version.
+Another way could be as follows:
+
+{% highlight python %}
+for c in lorem:
+  print(c)
+{% endhighlight %}
+
+This is a bit shorter and more pythonic.
   
 # Splitting a string
 {% highlight python %}
@@ -99,6 +120,8 @@ new_lorem = lorem.replace("m", "")
 new_lorem = lorem[:5] + "-" + lorem[6:]
 {% endhighlight %}
 
-# Further resources
+This will insert a dash after the fifth character.
+
+## Further resources
 [My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)
 

@@ -26,7 +26,7 @@ Some of the topics are:
 * file handling
 * comsuming external services
 
-The first fiftytwo exercise are rather small in scope, while the last five exercises are about complete solutions, such as a Todo application.
+The first fiftytwo exercises are rather small in scope, while the last five exercises are about complete solutions, such as a Todo application.
 Each exercise contains a set of constraints and challenges, i. e. variants of the original problem statement. 
 The exercises are language-independent, so one can use them to code in one's favorite language or to get started with unknown languages or frameworks.
 
@@ -35,4 +35,4 @@ I also experienced that this kind of exercises is quite suitable for me as I can
 
 In summary, I got to say that this is probably the most valuable book I have read in 2017. Personally, I used it to practice Python, but I will certainly re-do some exercises in another language.
  
-The book is available at [Pragmatic Bookshelf] (https://pragprog.com/book/bhwb/exercises-for-programmers)
+The book is available at [Pragmatic Bookshelf](https://pragprog.com/book/bhwb/exercises-for-programmers)

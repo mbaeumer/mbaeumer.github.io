@@ -128,8 +128,8 @@ def prepare_data_to_write(products):
   data = {"products": products_dictionaries}
   return data  
 {% endhighlight %}
-After the ligst of products is prepared, i.e. made JSON serializable, the above function write_json_file can be called.
+After the list of products is prepared, i.e. made JSON serializable, the above function write_json_file can be called.
 
 ## Further resources
-[My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)
+[My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)<br/>
 [Fully working example on github](https://github.com/mbaeumer/python-challenge/tree/master/block7-fileio/simple_file_read_write/json)

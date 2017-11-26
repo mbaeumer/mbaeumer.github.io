@@ -81,7 +81,7 @@ Burrito: Cool, unfortunately, I gotta run because I have a meeting soon. But it 
 Donut: Absolutely, thanks for your input. I will put more effort into the tests and get back to you soon.<br/>
 Burrito: Great, we can sit together soon again and figure out how to proceed with this. It was kind of fun to look at a bit of Python code. I think I should do that more often.<br/>
 <br/>
-**What did just happen?**
+**What did just happen?**<br/>
 First of all, I admit this dialogue might be too peaceful, i. e. in practice there are maybe a bit more discussions and conflicts. Anyway, the donut and the burrito had a successful episode of pair programming. They succeeded due to various reasons:
 
 
@@ -91,11 +91,11 @@ First of all, I admit this dialogue might be too peaceful, i. e. in practice the
 * They collaborate and hand over the keyboard without discussions
 
 <br/> 
-**So where to go from here?**
+**So where to go from here?**<br/>
 There are a couple of lessons we can learn from this or similar situations. Here I want to focus mainly on pair programming and collaboration.<br/>
 The first lesson is that pair programming has various benefits. One big value of it is that ideas are discussed and evaluated quite early. For instance, I experience often that an early review of an idea or implementation makes the result simpler and more straightforward. Another advantage is that best practices, such as automated testing or design principles, are exercised more consistently when people collaborate. Besides, potential “quick hacks” are improved earlier and the technical debt does not increase too much.<br/>
-<br/>
 The second and a bit more general lesson is that collaboration between individuals can lead to better results, regardless of the industry we are working in. Be it as craftsmen, doctors, physical therapists (or other professions) collaboration triggers new ideas, improves knowledge sharing, and builds trust between individuals.
+<br/>
 <br/>
 What are your experiences of pair programming (or collaboration in general)?
  

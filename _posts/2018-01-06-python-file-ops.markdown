@@ -77,3 +77,4 @@ Trying to create a directory that already exists will cause an error. Therefore,
 
 ## Further resources
 [My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)<br/>
+[Fully working example on github](https://github.com/mbaeumer/python-challenge/tree/master/block7-fileio/simple_file_ops)

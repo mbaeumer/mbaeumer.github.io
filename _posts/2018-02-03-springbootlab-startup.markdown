@@ -11,7 +11,7 @@ The first part of this series on Spring Boot describes an approach to create a S
 We will build a simple, and working, skeleton of a Spring Boot application.
 
 ## Spring boot initializer
-One of the easiest ways to initialize a working skeleton is through the Spring Boot initializer, that is available via http://start.spring.io.<br/>
+One of the easiest ways to initialize a working skeleton is through the Spring Boot initializer, that is available via [http://start.spring.io](http://start.spring.io).<br/>
 
 ![](/assets/starter-spring.png)
 

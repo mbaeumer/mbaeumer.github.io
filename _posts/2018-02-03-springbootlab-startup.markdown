@@ -77,3 +77,5 @@ public class SpringBootLabGithubHeroApplicationTests {
 }
 {% endhighlight %}
 
+### Further resources
+[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part1)

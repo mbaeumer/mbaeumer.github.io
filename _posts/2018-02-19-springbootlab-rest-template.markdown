@@ -7,12 +7,12 @@ categories: jekyll update
 
 In the third part of this series on Spring Boot we will start implementing the core of the application using Spring Boot's RestTemplate. 
 <br/>
-### What will be done here?
+## What will be done here?
 We will add a service, that calls GitHub's API using the RestTemplate.
 
-### Implementation
+## Implementation
 
-## The REST controller
+### The REST controller
 At first, we add a new class in the same package as the WelcomeController. This new controller exposes another endpoint ("/repos/<username>").
 When the endpoint is called, the GithubRepositoryService in its turn calls the GitHub API.
 {% highlight java %}
@@ -29,7 +29,7 @@ public class GithubRepositoryController {
 } 
 {% endhighlight %}
 
-## The service
+### The service
 The following class is used to call GitHub's API to retrieve information about the repositories owned by a specific user.
 {% highlight java %}
 @Service
@@ -48,7 +48,7 @@ public class GithubRepositoryService {
 After building and starting the app, you can access the new endpoint with a username and a list of GitHub repositories will be shown in json format.<br/>
 Further examples are discussed in future tutorials. A fully working example is available at the link below.
 
-### Further resources
+## Further resources
 [Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part3)
 
 

@@ -13,7 +13,7 @@ We will add a service, that calls GitHub's API using the RestTemplate.
 ## Implementation
 
 ### The REST controller
-At first, we add a new class in the same package as the WelcomeController. This new controller exposes another endpoint ("/repos/<username>").
+At first, we add a new class in the same package as the WelcomeController. This new controller exposes another endpoint ("/repos/some-username").
 When the endpoint is called, the GithubRepositoryService in its turn calls the GitHub API.
 {% highlight java %}
 @RestController
@@ -44,8 +44,22 @@ public class GithubRepositoryService {
     }
 }
 {% endhighlight %}
+This seems to be all that is needed. However, the build fails with the following message:
 
-After building and starting the app, you can access the new endpoint ("/repos/<username>)" list of GitHub repositories will be shown in json format.<br/>
+{% highlight bash%}
+Unsatisfied dependency expressed through field 'restTemplate'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.web.client.RestTemplate' available: expected at least 1 bean which qualifies as autowire candidate.
+{% endhighlight %}
+
+Obviously, the field restTemplate in the GithubRepositoryService class cannot be initialized right now. The missing piece here is to create a bean of type RestTemplate which can be autowired into the service.<br/>
+This can be fixed by adding a bean definition, e.g. to the SpringBootLabGithubHeroApplication class:
+{% highlight bash%}
+@Bean
+public RestTemplate restTemplate() {
+  return new RestTemplate();
+}
+{% endhighlight %}
+Now the restTemplate should be initialized correctly and the build should succeed.
+After starting the application, you can access the new endpoint ("/repos/some-username)" list of GitHub repositories will be shown in json format.<br/>
 Further examples are discussed in future tutorials. A fully working example is available at the link below.
 
 ## Further resources

@@ -7,7 +7,7 @@ categories: jekyll update
 
 In the third part of this series on Spring Boot we will start implementing the core of the application using Spring Boot's RestTemplate. 
 <br/>
-## What will be done here?
+### What will be done here?
 We will add a service, that calls GitHub's API using the RestTemplate.
 
 ### Implementation

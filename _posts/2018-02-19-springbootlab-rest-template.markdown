@@ -45,7 +45,7 @@ public class GithubRepositoryService {
 }
 {% endhighlight %}
 
-After building and starting the app, you can access the new endpoint with a username and a list of GitHub repositories will be shown in json format.<br/>
+After building and starting the app, you can access the new endpoint ("/repos/<username>)" list of GitHub repositories will be shown in json format.<br/>
 Further examples are discussed in future tutorials. A fully working example is available at the link below.
 
 ## Further resources

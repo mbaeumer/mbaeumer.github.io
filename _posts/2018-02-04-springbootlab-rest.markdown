@@ -7,12 +7,12 @@ categories: jekyll update
 
 The second part of this series on Spring Boot shows how to add a REST endpoint to a Spring Boot application.
 
-### What will be done here?
+## What will be done here?
 We will modify the application taken from part1 so that it exposes a REST endpoint. Besides, we add a test case for the endpoint.
 
-### Implementation
+## Implementation
 
-## The REST controller
+### The REST controller
 {% highlight java %}
 @RestController
 public class WelcomeController {
@@ -24,7 +24,7 @@ public class WelcomeController {
 {% endhighlight %}
 This controller is pretty simple. When the endpoint '/welcome' is called, it will simply return a string.
 
-## The test case
+### The test case
 {% highlight java %}
 @RunWith(SpringRunner.class)
 @WebMvcTest(WelcomeController.class)
@@ -59,5 +59,5 @@ public class WelcomeControllerTest {
 }
 {% endhighlight %}
 
-### Further resources
+## Further resources
 [Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part2)

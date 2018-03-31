@@ -8,7 +8,7 @@ categories: jekyll update
 ## What will be done here?
 In the [previous post](https://mbaeumer.github.io/jekyll/update/2018/02/19/springbootlab-rest-template.html) I described how Spring Boot's RestTemplate can be used to call Github's API. In this post, we will implement a test for this RestTemplate.
 
-## heading three
+## Implementation
 One way of writing a test for the funtionality that was implemented earlier could be a test for the controller. There is however one problem with this approach:If we only test the controller and simply rely on Github responding to the request, the test will be unstable because there is no guarantee that Github is always responding.<br/> 
 Instead, we will make use of Spring Boot's capabilities to mock RestTemplate's call to Github.<br/>
 The test class looks as follows:

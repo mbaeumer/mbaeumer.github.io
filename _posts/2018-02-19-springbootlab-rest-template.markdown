@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring boot lab: Using the RestTemplate"
+title: "Spring boot lab (part 3): Using the RestTemplate"
 date: 2018-02-19 18:10:53 +0100
 categories: jekyll update
 ---
@@ -63,6 +63,6 @@ After starting the application, you can access the new endpoint ("/repos/some-us
 Further examples are discussed in future tutorials. A fully working example is available at the link below.
 
 ## Further resources
-[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part3)
+[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part3-resttemplate)
 
 

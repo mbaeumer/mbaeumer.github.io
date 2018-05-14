@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring Boot lab: Startup"
+title: "Spring Boot lab (part 1): Startup"
 date: 2018-02-03 17:05:40 +0100
 categories: jekyll update
 ---
@@ -78,4 +78,4 @@ public class SpringBootLabGithubHeroApplicationTests {
 {% endhighlight %}
 
 ### Further resources
-[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part1)
+[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part1-startup)

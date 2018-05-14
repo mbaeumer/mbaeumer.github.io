@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring Boot lab: REST"
+title: "Spring Boot lab (part 2): REST"
 date: 2018-02-04 23:48:15 +0100
 categories: jekyll update
 ---
@@ -60,4 +60,4 @@ public class WelcomeControllerTest {
 {% endhighlight %}
 
 ## Further resources
-[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part2)
+[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part2-rest)

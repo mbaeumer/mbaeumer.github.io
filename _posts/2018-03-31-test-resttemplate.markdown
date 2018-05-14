@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring Boot lab: Testing the RestTemplate"
+title: "Spring Boot lab (part 4): Testing the RestTemplate"
 date: 2018-03-31 20:45:03 +0100
 categories: jekyll update
 ---
@@ -47,4 +47,4 @@ public void testGetRepositories() {
 When the test is executed, a call to Github will be mocked and a json string will be returned. In that way the test case is not dependent on a working Github API.
 
 ## Further resources
-[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part4)
+[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part4-test-resttemplate)

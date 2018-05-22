@@ -23,7 +23,7 @@ Next, we can create a new html file that will present a user's repositories in a
 {% endhighlight %}
 To be able to work with thymeleaf, the proper namespaces is added (`xmlns:th="http://www.thymeleaf.org"`).
 The remainder of the html page is a table that contains the repository data.
-{% highlight html % }
+{% highlight % }
 <h1>List of repositories owned by <span th:utext="${user}"></span></h1>
 {% endhiglight % }
 The above table will display the repositories name, URL and owner of each repository.<br/>

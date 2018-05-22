@@ -5,7 +5,7 @@ date: 2018-05-22 20:45:06 +0100
 categories: jekyll update
 ---
 
-## Wat will be done here
+## What will be done here?
 So far, my series about Spring Boot covered more backend topics. This post deals with improving the frontend by adding Thymeleaf.
 
 ## Implementation
@@ -17,27 +17,13 @@ At first, the Thymeleaf dependency needs to be added to the pom file.
 </dependency>
 {% endhighlight %}
 Next, we can create a new html file that will present a user's repositories in a table 
-{% highlight xml %}
+{% highlight html %}
 <DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 {% endhighlight %}
 To be able to work with thymeleaf, the proper namespaces is added (`xmlns:th="http://www.thymeleaf.org"`).
 The remainder of the html page is a table that contains the repository data.
-{% highlight html % }
-<h1>List of repositories owned by <span th:utext="${user}"></span></h1>
-<table>
-  <tr>
-     <th>Name</th>
-     <th>URL</th>
-     <th>Owner</th>
-  </tr>
-  <tr th:each="repo : ${repos}">
-     <td th:text="${repo.name}"></td>
-     <td th:text="${repo.url}"></td>
-     <td th:text="${repo.owner.login}"></td>
-  </tr>
-</table>
-{% endhighlight %}
+
 The above table will display the repositories name, URL and owner of each repository.<br/>
 As you can see there are some `thymeleaf` related tags such as `th:each` and `th:text`. The `th:each` tag is a loop to iterate through o a list of repositories, `${repos}` in this case. For each item of this list the name, three attribbutes will be displayed by using `th:text`.<br/>
 In this tutorial, I named the html file `repositories.html` and saved in `src/main/resources/templates`.<br/>

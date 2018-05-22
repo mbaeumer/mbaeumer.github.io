@@ -25,6 +25,18 @@ To be able to work with thymeleaf, the proper namespaces is added (`xmlns:th="ht
 The remainder of the html page is a table that contains the repository data.
 ```
 <h1>List of repositories owned by <span th:utext="${user}"></span></h1>
+<table>
+  <tr>
+     <th>Name</th>
+     <th>URL</th>
+     <th>Owner</th>
+  </tr>
+  <tr th:each="repo : ${repos}">
+     <td th:text="${repo.name}"></td>
+     <td th:text="${repo.url}"></td>
+     <td th:text="${repo.owner.login}"></td>
+  </tr>
+</table>
 ```
 The above table will display the repositories name, URL and owner of each repository.<br/>
 As you can see there are some `thymeleaf` related tags such as `th:each` and `th:text`. The `th:each` tag is a loop to iterate through o a list of repositories, `${repos}` in this case. For each item of this list the name, three attribbutes will be displayed by using `th:text`.<br/>

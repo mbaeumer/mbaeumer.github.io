@@ -56,4 +56,4 @@ The method takes a username as well as a parameter of type `Model`. This `Model`
 The method returns a string, "repositories" in this case. Spring will try to match the string to a template, that is a file in `src/main/resources/templates`. Here it should work as the name of the template we defined earlier is actually "repositories".  
 
 ## Further resources
-[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part5-tymeleaf)
+[Fully working example](https://github.com/mbaeumer/springboot-lab/tree/master/part5-thymeleaf)

@@ -92,6 +92,6 @@ public class SpringBootLabGithubHeroApplication {
 The annotation takes the configuration class as parameter.
 
 ## Further resources
-[Configuration example](https://github.com/mbaeumer/springboot-lab/tree/master/part6-1-configuration)
+[Configuration example](https://github.com/mbaeumer/springboot-lab/tree/master/part6-1-configuration)<br/>
 [ConfigurationProperties example](https://github.com/mbaeumer/springboot-lab/tree/master/part6-2-configurationproperties)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book review: Buildin Microservices"
+title: "Book review: Building Microservices"
 date: 2018-07-04 22:56:10 +0100
 categories: jekyll update
 ---
@@ -17,12 +17,12 @@ Some of the questions that I experienced:
 
 Hence, I started looking for answers. Apart from various blog posts I found “Building microservices” by Sam Newman.
 The book starts off discussing a couple of high-level charascteristics of microservices along with some of the key benefits.
-Then, Newman presents some general thoughts regarding the modeling of microservices.
-The following chapters compares different approaches of integration, before it gets quite concrete.
-Throughout the book one monolithic sample application that will be split stepwise. Here the author even names usual reasons or drivers for splitting, so that the reader gets some guidance before performing any split.
-The chapters thereafter deal with continuous integration and testing. Especially the topic of testing made me smile as we have been discussing similar questions at work this spring.
+Then, Newman presents some general thoughts regarding the modeling of microservices.<br/>
+The following chapters compare different approaches of integration, before it gets quite concrete.
+Throughout the book one monolithic sample application that will be split stepwise. Here the author even names usual reasons or drivers for splitting, so that the reader gets some guidance before performing any split.<br/>
+The chapters thereafter deal with continuous integration and testing. Especially the chapter on testing made me smile as we have been discussing similar questions at work this spring.<br/>
 Next, monitoring and security are discussed. Again, the author presents various options without trying to “sell” a silver bullet. Instead, the reader gets a decent overview on existing tools and approaches for further investigations.
-One of the final chapters describes how deployed microservices can be handled, i. e. how they can be scaled and how failures can be managed.
-When it comes to microservices there are no silver bullets, no “one fits it all” action points. I liked a lot that this book addresses this quite well. For different topics various approaches are presented and discussed so that the readers have some pointers for further investigations.
-Another nice thing is that one application is used as an example, so that the content becomes more hands on. Last but not least, the author even discusses the human factors that are worth considering when working with microservices.
+One of the final chapters describes how deployed microservices can be handled, i. e. how they can be scaled and how failures can be managed.<br/>
+When it comes to microservices there are no silver bullets, no “one fits it all” action points. I liked a lot that this book addresses this quite well. For different topics various approaches are presented and discussed so that the readers have some pointers for further investigations.<br/>
+Another nice thing is that one application is used as an example, so that the content becomes more hands on. Last but not least, the author even discusses the human factors that are worth considering when working with microservices.<br/>
 To sum up, I believe that the book is quite nice. If you are quite new to microservices, you can get a  good overview on various relevant topics and if you are already working with microservices in some way, the book is a good reference when discussing particular topics within your organization.

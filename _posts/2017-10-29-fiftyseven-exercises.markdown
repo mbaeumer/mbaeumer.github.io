@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reading list: Fiftyseven exercises for programmers"
+title: "Book review: Fiftyseven exercises for programmers"
 date: 2017-10-29 12:30:37 +0100
 categories: jekyll update
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Reading list: Pomodoro Technique Illustrated"
+title: "Book review: Pomodoro Technique Illustrated"
 date: 2017-04-15 19:30:53 +0100
 categories: jekyll update
 ---

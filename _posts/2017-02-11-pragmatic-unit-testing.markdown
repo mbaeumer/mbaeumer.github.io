@@ -1,6 +1,6 @@
 ---
 layout:  post
-title:   "Reading list: Pragmatic Unit Testing in Java 8 with JUnit"
+title:   "Book review: Pragmatic Unit Testing in Java 8 with JUnit"
 date:    2017-02-11 15:00:00 +0100
 categories: jekyll update
 ---

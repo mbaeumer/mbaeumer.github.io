@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reading list: Solving problems together"
+title:  "Book review: Solving problems together"
 date:   2017-02-11 13:00:00 +0100
 categories: jekyll update
 ---

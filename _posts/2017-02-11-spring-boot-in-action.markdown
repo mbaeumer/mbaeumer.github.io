@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Reading list: Spring Boot in Action"
+title:  "Book review: Spring Boot in Action"
 date:   2017-02-11 14:30:00 +0100
 categories: jekyll update
 ---

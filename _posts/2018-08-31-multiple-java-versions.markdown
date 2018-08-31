@@ -13,15 +13,15 @@ This is a short guide (and reminder to myself) on how to easily switch between t
 Originally, I installed Java without homebrew, so I started looking for a better setup of my environment.
 
 ## Step 1: Remove any JDK that is not installed using homebrew
-First, I had to get rid of any JDK that was installed without homebre:
+First, I had to get rid of any JDK that was installed without homebrew:<br/>
 `sudo rm -rf /Library/Java/JavaVirtualMachines...`
 
 ## Step 2: Install cask
-Homebrew is a package manager and cask is an extension of homebrew that lets users install even more applications.
+Homebrew is a package manager and cask is an extension of homebrew that lets users install even more applications.<br/>
 `brew install caskroom/cask/brew-cask`
 
 ## Step 3: Install jenv
-jenv is a simple tool to manage multiple versions of the JDK. It can be installed using brew.
+jenv is a simple tool to manage multiple versions of the JDK. It can be installed using brew.<br/>
 `brew install jenv`
 
 ## Step 4: Adding Git repository
@@ -43,7 +43,8 @@ Next, the installed JDK versions are registered in jenv so that jenv knows about
 
 ## Step 8: View the currently available JDKs
 So now we can check which JDKs are available to jenv.<br/>
-`jenv versions`. The output could look something like this:<br/>
+`jenv versions`. <br/>
+The output could look something like this:<br/>
 ```
   1.8
 * 1.8.0.162 (set by /Users/martinbaumer/.jenv/version)
@@ -53,6 +54,6 @@ So now we can check which JDKs are available to jenv.<br/>
   oracle64-10.0.2
 ```
 ## Step 9: Switch JDK
-For switching there are two different alternatives - either the version is changed globally or locally.<br/>
-`jenv global <jdk-version>`
+For switching JDK versions there are two different alternatives - either the version is changed globally or locally.<br/>
+`jenv global <jdk-version>`<br/>
 If global is used, the JDK version is updated for all paths. If local is used, the JDK version is set only for the curent working directory.

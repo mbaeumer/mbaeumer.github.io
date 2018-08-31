@@ -33,11 +33,11 @@ Ok, right now there is no JDK installed. Now we can add new versions of the JDK 
 `brew cask install java8`
 
 ## Step 6: Install latest Java
-After the oldest version is installed, let's add the latest version.
-`brew cask install java`
+After the oldest version is installed, let's add the latest version.<br/>
+`brew cask install java`<br/>
 While writing this text, the latest JDK version was 10.
 
-Step 7: Add the installed versions to jenv
+## Step 7: Add the installed versions to jenv
 Next, the installed JDK versions are registered in jenv so that jenv knows about all existing versions.<br/>
 `jenv add /Library/Java/JavaVirt.../Contents/Home`
 

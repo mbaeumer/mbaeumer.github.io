@@ -56,4 +56,4 @@ The output could look something like this:<br/>
 ## Step 9: Switch JDK
 For switching JDK versions there are two different alternatives - either the version is changed globally or locally.<br/>
 `jenv global <jdk-version>`<br/>
-If global is used, the JDK version is updated for all paths. If local is used, the JDK version is set only for the curent working directory.
+If global is used, the JDK version is updated for all paths. If local is used, the JDK version is set only for the current working directory.

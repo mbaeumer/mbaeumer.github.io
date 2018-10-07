@@ -13,6 +13,7 @@ One way of writing a test for the funtionality that was implemented earlier coul
 Instead, we will make use of Spring Boot's capabilities to mock RestTemplate's call to Github.<br/>
 The test class looks as follows:
 {% highlight java %}
+@RunWith(SpringRunner.class)
 @SpringBootTest
 public class GithubRepositoryServiceTest {
     @Autowired
@@ -28,7 +29,7 @@ public class GithubRepositoryServiceTest {
         mockServer = MockRestServiceServer.createServer(restTemplate);
     }
 {% endhighlight %}
-The class is annotated with `SpringBootTest` which means that Spring Boot will start an application context with the main configuration. Next, the `RestTemplate` and the `GithubRepositoryService` are autowired. The member variable of type `MockRestReserviceServer` will be mocking Github's response.
+The class is annotated with `RunWith(SpringRunner)` and `SpringBootTest` which means that Spring Boot will start an application context with the main configuration. Next, the `RestTemplate` and the `GithubRepositoryService` are autowired. The member variable of type `MockRestReserviceServer` will be mocking Github's response.
 Ok, now the test case itself:
 {% highlight java %}
 @Test

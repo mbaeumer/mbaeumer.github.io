@@ -84,6 +84,14 @@ print("abc", lorem.find("abc"))
 
 This will return a number indicating where the substring in question occurs. If the number is -1, then the substring is not present.
 
+# Checking how often a substring appears in a string
+The easiest and most common way to check that is by using `count`:
+{% highlight python %}
+teststring = "abbaaaa"
+print(teststring.count("aa"))
+{% endhighlight %}
+Note that `count` ignores overlapping occurences. Here, the number `2`is printed.
+
 # Iterating through a string
 {% highlight python %}
 i = 0
@@ -123,5 +131,6 @@ new_lorem = lorem[:5] + "-" + lorem[6:]
 This will insert a dash after the fifth character.
 
 ## Further resources
+Example code for the string operations above can be found [here](https://github.com/mbaeumer/python-challenge/tree/master/block2-datatypes/strings)<br>
 [My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)
 

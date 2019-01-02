@@ -100,7 +100,7 @@ def write_json_file(filename, products):
     json.dump(products, outfile, indent=4)
 {% endhighlight %}
 
-The function take two arguments: The name of the json file and a list of products.<br/>
+The function takes two arguments: The name of the json file and a list of products.<br/>
 When the above functions is called, the following error occurs:
 {% highlight bash %}
 TypeError: <product.Product object at 0x1029f4470> is not JSON serializable

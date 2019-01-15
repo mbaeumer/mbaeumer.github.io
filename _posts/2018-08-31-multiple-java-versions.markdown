@@ -39,7 +39,15 @@ While writing this text, the latest JDK version was 10.
 
 ## Step 7: Add the installed versions to jenv
 Next, the installed JDK versions are registered in jenv so that jenv knows about all existing versions.<br/>
-`jenv add /Library/Java/JavaVirt.../Contents/Home`
+`jenv add /Library/Java/JavaVirt.../Contents/Home`<br/>
+Troubleshooting:<br/>
+The command above might cause the following error:<br/>
+`/Users/.../.jenv/versions/oracle64-1.7.0.71: No such file or directory`<br/>
+The folder `.jenv` cannot be found, which means that jenv is not configured correctly yet. This can be fixed by running the following commands:
+```
+$ echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bash_profile 
+$ echo 'eval "$(jenv init -)"' >> ~/.bash_profile
+```
 
 ## Step 8: View the currently available JDKs
 So now we can check which JDKs are available to jenv.<br/>

@@ -65,3 +65,8 @@ The output could look something like this:<br/>
 For switching JDK versions there are two different alternatives - either the version is changed globally or locally.<br/>
 `jenv global <jdk-version>`<br/>
 If global is used, the JDK version is updated for all paths. If local is used, the JDK version is set only for the current working directory.
+
+## Setting $JAVA_HOME
+jenv provides a couple of plugins that simplify handling multiple Java versions even more. For instance, it could be useful to update $JAVA_HOME automatically each time one switches to another Java version. This can be done with the following command:<br/>
+`jenv enable-plugin export`
+More plugins can be listed running `jenv plugins`.

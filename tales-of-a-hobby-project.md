@@ -20,7 +20,7 @@ The distributed trend shows basically the number of newly reported cases per day
 ## 11/4 Work on use cases
 For the past couple of days, I have been (slowly) working on some concrete use cases.<br/>
 One of them is to show covid-19 data for a country that the user selects.
-I have found a custom combox on github, that supports input from the keyboard. The auto-completion s not the prettiest one, but it is good enough for now and it makes selecting a country so much easier.
+I have found a custom combox on [github](https://github.com/jesuino/javafx-combox-autocomplete), that supports input from the keyboard. The auto-completion s not the prettiest one, but it is good enough for now and it makes selecting a country so much easier.
 The second use case is about showing the number of confirmed cases, recovered and deaths by a specific date.
 ![](/assets/covid19vis/by-date.png)
 <br/>

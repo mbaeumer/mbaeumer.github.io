@@ -130,6 +130,18 @@ new_lorem = lorem[:5] + "-" + lorem[6:]
 
 This will insert a dash after the fifth character.
 
+# Using the `not` operator with strings
+{% highlight python %}
+name=""
+if not name:
+  print("the name is not set")
+name="abc"
+if not name:
+  print("the name is not set")
+else:
+  print("now the name is set")
+{% endhighlight %}
+
 ## Further resources
 Example code for the string operations above can be found [here](https://github.com/mbaeumer/python-challenge/tree/master/block2-datatypes/strings)<br>
 [My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)

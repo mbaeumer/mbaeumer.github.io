@@ -6,9 +6,9 @@ categories: jekyll update
 ---
 
 
-This post presents some basic commands for control flow, speififcally `if`-statements, `while` and `for`-loops
+This post presents some basic commands for control flow, specifcally `if`-statements, `while` and `for`-loops
 
-# If
+# `If`-statements
 Let's start with a simple if statement:
 
 {% highlight python %}
@@ -29,8 +29,8 @@ else:
   print("The number is not larger than zero.")
 {% endhighlight %}
 
-Again, the body belonging to the else branch needs to be indented.
-The ternary operator is an alternative for of `if`..`else`:
+Again, the body belonging to the else branch needs to be indented.<br/>
+The ternary operator is an alternative for `if`..`else`:
 
 {% highlight python %}
 number = int(input("Please enter a number: "))

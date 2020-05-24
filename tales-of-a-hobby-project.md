@@ -5,13 +5,29 @@ permalink: /tales-of-a-hobby-project/
 ---
 I have been in home office since middle of March now (as many of us...). Not much to do in my spare time, so I figured I might try out, experiment and learn a thing or two while I stay at home.
 The result so far is a prototype/POC that collects Covid-19 data from John Hopkins University and visualises different aspects.
-On this page I summarize some of the little milestones
+On this page I summarize some of the little milestones. The code can be found on [my github](https://github.com/mbaeumer/covid-19-vis)
+
+## 25/5 Various minor changes
+Throughout the past days I have mainly worked on minor changes, such as colours for different status messages, layout, removing unused code.
+
+## 18/5 Asynchronous git clone
+I noticed that executing the git clone command was sometimes taking a bit too long, thus blocking the UI.<br/>
+I changed it using `Platform.runLater` provided by JavaFX. This allows long-running tasks in the background, while keeping the UI updated.
+![](/assets/covid19vis/git-status.png)
+
+## 2/5 Configuration
+So far I have used a hard-coded value for the directory that contains the data from github. During the last couple of days I added suppport for storing the path in a properties file, so the user can choose a path by herself.
+Along with that I updated the layout a bit, so that the buttons triggering git operations are a bit separated from the rest.
+![](/assets/covid19vis/layout.png)
+
+## 25/4 Error handling
+I added and improved error handling. Nice to get rid of some NullPointerExceptions and long stack traces.
 
 ## 19/4 Putting together the pieces
 So far I have experimented with different use cases separately. During the past week, I started putting together the individual pieces of the puzzle.
 <br/>
 The latest feature is to let the user choose between a cumulative and a distributed trend for a specific country.<br/>
-The cumulative trend shows the well-known curve that we all want to flatten.
+The cumulative trend shows the well-known curve that we all want to flatten.<br/>
 ![](/assets/covid19vis/cumulative.png)
 The distributed trend shows basically the number of newly reported cases per day.
 ![](/assets/covid19vis/distributed.png)

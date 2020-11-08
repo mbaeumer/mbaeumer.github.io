@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring Booot and relational databases - part 1: In-memory setup"
+title: "Spring Boot and relational databases - part 1: In-memory setup"
 date: 2020-11-08 19:32:00 +0100
 categories: jekyll update
 ---

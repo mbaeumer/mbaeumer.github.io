@@ -118,5 +118,5 @@ matrix = np.delete(matrix, 1, axis=1)
 
 
 # Further resources
-[My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)
+[My python challenge](https://mbaeumer.github.io/jekyll/update/2017/05/30/python-challenge-intro.html)<br>
 [The code examples](https://github.com/mbaeumer/python-challenge/tree/master/numpy-examples)

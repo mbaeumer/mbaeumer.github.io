@@ -51,7 +51,7 @@ public interface ContactRepository extends JpaRepository<Contact, Long> {
 }
 ```
 This interface handles the database operations. Important to note here is that `ContactRepository` is an interface and not a class. Since it extends `JpaRepository`, JPA will generate an implementation
-durin runtime.
+during runtime.
 Then I created a class named `ContactService`.
 ```java
 @Service
@@ -105,7 +105,7 @@ With this, the application can be built. However, an error occurred when the app
 ...
 Caused by: java.lang.IllegalArgumentException: Not a managed type: class se.maeumer.springbootlab.postgresql.part1.Contact
 ```
-The reason for this error is a missing `@Entity` annotation. This annotation is neccessary to identify a class as entity.
+The reason for this error is a missing `@Entity` annotation. This annotation is neccessary to identify a class as entity in the database.
 So now the class looks like this:
 ```java
 @Entity
@@ -141,7 +141,7 @@ This is not so surprising as no contacts have been added to the database.
 
 # Initialising and populating the database
 One way to initialise and populate the database is by using an sql file inthe resources folder:
-```
+```sql
 DROP TABLE IF EXISTS contact;
 
 CREATE TABLE contact (
@@ -185,8 +185,8 @@ The missing `@Column` annotation maps the member variables to the columns in the
 When calling the endpoint http://localhost:8080/contact, a list is returned containing one contact. It is the same contact, that was inserted in the sql file.
 
 # Summary
-This blog post describes the steps to set up a Spring Boot application to connect to an in-memory database. The application contains a RestController to expose an endpoint, a service bean to handle some logic (not that much logic at the moment though) and a repository bean that handles the communication with the database. Besides, I added an sql file to populate the database with ome testdata at start up. <br>
+This blog post describes the steps to set up a Spring Boot application to connect to an in-memory database. The application contains a RestController to expose an endpoint, a service bean to handle some logic (not that much logic at the moment though) and a repository bean that handles the communication with the database. Besides, I added an sql file to populate the database with some testdata at start up. <br>
 So far the appication provides support for reading only. In future steps, functionality to create, update and delete contacts will be added.
 
 # Further resources
-The code axample vcan be found [here](https://github.com/mbaeumer/spring-boot-postgresql-demo)
+The code example can be found [here](https://github.com/mbaeumer/spring-boot-postgresql-demo)

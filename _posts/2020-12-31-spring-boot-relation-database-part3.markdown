@@ -83,7 +83,7 @@ When calling http://localhost:8080/contact, the response will be something like 
 ```
 
 # Looking at the h2-console
-When opening http://localhost:8080/h2-console, we can see that there is a new table. Besides, the contact table has changed, i. e. a new column has been added
+When opening http://localhost:8080/h2-console, we can see that there is a new table. Besides, the contact table has changed, i. e. a new column has been added.<br>
 ![](/assets/spring-boot-h2-console.png)
 
 # Using JPA for different queries

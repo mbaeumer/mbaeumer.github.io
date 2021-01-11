@@ -5,7 +5,7 @@ date: 2021-01-10 23:25:00 +0100
 categories: jekyll update
 ---
 
-In the previous part of this series, we added an entity for address data to the database. So far the application provides only support for reading data. In this part, we make changes to make it posasible to add contacts.
+In the previous part of this series, we added an entity for address data to the database. So far the application provides only support for reading data. In this part, we make changes to make it possible to add contacts.
 
 # Changing the code
 At first, let's add a new mothod to the `ContactController

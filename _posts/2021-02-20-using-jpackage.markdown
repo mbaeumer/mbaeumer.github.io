@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "JDK incubator: Using jpackage"
-date: 2021-02-20 21:25:00 +0100
+date: 2021-02-21 09:25:00 +0100
 categories: jekyll update
 ---
 

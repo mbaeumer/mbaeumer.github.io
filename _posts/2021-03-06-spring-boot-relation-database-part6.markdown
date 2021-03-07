@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 
 ![](/assets/chain.jpg)
+<br><br>
 In the previous part of this series, support for deleting contacts and addresses was added. This part describes the steps to add different kind of constraints to the database tables to prevent duplicate contacts and addresses.
 
 # Updating dependencies

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resources for: Machine learning in a hobby project"
-date: 2022-05-22 05:25:00 +0100
+date: 2022-05-03 05:25:00 +0100
 categories: jekyll update
 ---
 

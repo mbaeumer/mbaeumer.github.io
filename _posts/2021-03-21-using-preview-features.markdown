@@ -10,7 +10,7 @@ categories: jekyll update
 Since the release of Java 9, the release cycles have become significantly shorter. This makes it possible to release certain features of the language as a preview.
 This blog post shortly describes how to use these preview features.
 
-i# The example code
+# The example code
 As an example, I wrote a very primitive application that makes use of PatternMatching and records. These features are fully available starting from JDK 16, but have been present as preview features since JDK 14.<br>
 The sample application can be found [here](https://github.com/mbaeumer/java-lab/tree/master/java-14)
 

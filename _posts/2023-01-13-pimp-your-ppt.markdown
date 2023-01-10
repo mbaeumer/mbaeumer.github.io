@@ -84,7 +84,7 @@ Alternatively you can make the shape's background a bit transparent instead of s
 ![](/assets/pimp-ppt/10-shape-over-image-transparent.png)
 
 Or why not use a circle instead of a rectangle?!
-![](/assets/pimp-ppt/10-shape-over-image-circle.png)
+![](/assets/pimp-ppt/11-shape-over-image-circle.png)
 
 # Showing code in your presentation
 TBD

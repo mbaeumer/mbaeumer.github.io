@@ -34,7 +34,7 @@ How to do it:
 Handling images that are vertically aligned can be a bit more tricky to stretch. At first, let's see how the original image looks like:
 ![](/assets/pimp-ppt/03-vertical-image-original-small.png)
 
-As you can see the stretched version looks a bit strange and surreal which is probably not what you wanted.
+As you can see the stretched version looks a bit strange and surreal which is probably not what you wanted.<br>
 ![](/assets/pimp-ppt/04-image-vertical-stretched-small.png)
 
 One solution can be to put another image behind your actual image. Then you can stretch the background image and make it, for example, a bit blurry.<br>
@@ -52,7 +52,7 @@ In this example, I chose a golf theme, so a blurry green background seems kinda 
 
 ## Using effects
 Powerpoint provides a variety of artistic effects that can be applied on images. My personal favourite is the blur effect. It makes the image look a bit fuzzy, so it gives more room for other elements on the slide, such as text:
-![](/assets/pimp-ppt/06-image-blur.png)
+![](/assets/pimp-ppt/06-image-blur-small.png)
 
 How to do it:
 
@@ -61,15 +61,10 @@ How to do it:
 * Right-click on the image and select `Format Picture`
 * A new pane comes up where you can choose an artistic effect (see screenshot below)
 
-![](/assets/pimp-ppt/07-artistic-effect.png)
-Here is the result of making an image blurry:
-![](/assets/pimp-ppt/06-image-blur.png)
-
-## Putting a colour over the background image
+![](/assets/pimp-ppt/07-artistic-effect-small.png)
 
 ## Shapes and text on top of the image
 If you want to place text on top of such a slide, it can be a good idea to place that text inside a shape. This makes the text more readable, especially if the background is quite colorful.
-Example
 ![](/assets/pimp-ppt/08-shape-over-image-solid.png)
 
 How to do it:

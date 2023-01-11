@@ -38,7 +38,7 @@ As you can see the stretched version looks a bit strange and surreal which is pr
 ![](/assets/pimp-ppt/04-image-vertical-stretched-small.png)
 
 One solution can be to put another image behind your actual image. Then you can stretch the background image and make it, for example, a bit blurry.<br>
-In that way you do not need to stretch your image and you can guide your audience to focus on the relevant things:
+In that way you do not need to stretch your image and you can guide your audience to focus on the relevant things:<br>
 ![](/assets/pimp-ppt/05-image-vertical-blurred-background-small.png)
 
 How to do it:
@@ -51,7 +51,7 @@ How to do it:
 In this example, I chose a golf theme, so a blurry green background seems kinda suitable.
 
 ## Using effects
-Powerpoint provides a variety of artistic effects that can be applied on images. My personal favourite is the blur effect. It makes the image look a bit fuzzy, so it gives more room for other elements on the slide, such as text:
+Powerpoint provides a variety of artistic effects that can be applied on images. My personal favourite is the blur effect. It makes the image look a bit fuzzy, so it gives more room for other elements on the slide, such as text:<br>
 ![](/assets/pimp-ppt/06-image-blur-small.png)
 
 How to do it:
@@ -82,9 +82,17 @@ Or why not use a circle instead of a rectangle?!
 ![](/assets/pimp-ppt/11-shape-over-image-circle.png)
 
 # Showing code in your presentation
-TBD
+Depending of the topic of your preentation, you might want to present some code in the slides.
+First let's have a look at what the code looks like in the IDE.
+![](/assets/pimp-ppt/12-original-code-from-intellij.png)
+ 
 ## Straightforward copy
-TBD
+Copy/paste might actually work okay, at least on a slide with white background.<br>
+![](/assets/pimp-ppt/13-code-on-white-slide.png)
+
+On a black background however, it looks quite bad as the curly brackets are turned to black and are not visible.<br>
+![](/assets/pimp-ppt/14-code-on-black-slide.png)
+
 ## Black background
 TBD
 ## Using screencast

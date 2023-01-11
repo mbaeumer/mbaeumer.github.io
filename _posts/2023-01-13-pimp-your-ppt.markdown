@@ -21,8 +21,8 @@ A picture says more than thousand ways! Indeed, a suitable image can help you to
 ## Stretching the image
 Of course, one could simply use the image as-is and paste it into the slide. However, this often looks quite sloppy, it seems that the presenter did not have time (or did not put much effort into) the presentation.
 ![](/assets/pimp-ppt/01-image-dump-small.png)
-Therefore, it can be a good idea to stretch the image so that it covers the whole slide.
-![](/assets/pimp-ppt/02-image-stretched.png)
+<br>Therefore, it can be a good idea to stretch the image so that it covers the whole slide.
+![](/assets/pimp-ppt/02-image-stretched-small.png)
 
 How to do it:
 
@@ -32,14 +32,14 @@ How to do it:
 
 ## Vertically aligned images
 Handling images that are vertically aligned can be a bit more tricky to stretch. At first, let's see how the original image looks like:
-![](/assets/pimp-ppt/03-vertical-image-original.png)
+![](/assets/pimp-ppt/03-vertical-image-original-small.png)
 
 As you can see the stretched version looks a bit strange and surreal which is probably not what you wanted.
-![](/assets/pimp-ppt/04-image-vertical-stretched.png)
+![](/assets/pimp-ppt/04-image-vertical-stretched-small.png)
 
 One solution can be to put another image behind your actual image. Then you can stretch the background image and make it, for example, a bit blurry.<br>
 In that way you do not need to stretch your image and you can guide your audience to focus on the relevant things:
-![](/assets/pimp-ppt/05-image-vertical-blurred-background.png)
+![](/assets/pimp-ppt/05-image-vertical-blurred-background-small.png)
 
 How to do it:
 

@@ -20,7 +20,7 @@ A picture says more than thousand ways! Indeed, a suitable image can help you to
 
 ## Stretching the image
 Of course, one could simply use the image as-is and paste it into the slide. However, this often looks quite sloppy, it seems that the presenter did not have time (or did not put much effort into) the presentation.
-![](/assets/pimp-ppt/01-image-dump.png)
+![](/assets/pimp-ppt/01-image-dump-small.png)
 Therefore, it can be a good idea to stretch the image so that it covers the whole slide.
 ![](/assets/pimp-ppt/02-image-stretched.png)
 

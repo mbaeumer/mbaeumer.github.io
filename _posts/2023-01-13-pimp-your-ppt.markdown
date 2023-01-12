@@ -13,8 +13,8 @@ This post provides some hands-on tips for your next presentation, with focus on 
 One thing to think about when it comes to images from the web is that there might be a copyright. Using such images for commercial purposes can get you into legal trouble.<br>
 There are at least two good sources that provide plenty images for free:
 
-* [pixabay.com](www.pixabay.com)
-* [unsplash.com](www.unsplash.com)
+* [pixabay.com](http://www.pixabay.com)
+* [unsplash.com](http://www.unsplash.com)
 
 A picture says more than thousand ways! Indeed, a suitable image can help you to convey your message. A part from that, images are more entertaining than a lot of text during your presentation.
 

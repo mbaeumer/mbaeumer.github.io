@@ -105,7 +105,7 @@ How to do it:
 * Create a slide with black background
 * Insert the screenshot
 
-# Using a sreencast
+# Using a screencast
 Another alternative is to create a screenshot when writing the code and then you can insert the video in your slides.<br>
 Doing so could make the the presentation more lively (everybody likes to watch shorter clips). A downside though is that the presentation can get really large.
 

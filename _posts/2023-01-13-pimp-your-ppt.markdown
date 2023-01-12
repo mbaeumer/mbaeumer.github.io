@@ -7,9 +7,9 @@ categories: jekyll update
 
 This post provides some hands-on tips for your next presentation, with focus on images and code.
 
-# Images in the presentation
+## Images in the presentation
 
-## Where to find good images
+# Where to find good images
 One thing to think about when it comes to images from the web is that there might be a copyright. Using such images for commercial purposes can get you into legal trouble.<br>
 There are at least two good sources that provide plenty images for free:
 
@@ -18,7 +18,7 @@ There are at least two good sources that provide plenty images for free:
 
 A picture says more than thousand ways! Indeed, a suitable image can help you to convey your message. A part from that, images are more entertaining than a lot of text during your presentation.
 
-## Stretching the image
+# Stretching the image
 Of course, one could simply use the image as-is and paste it into the slide. However, this often looks quite sloppy, it seems that the presenter did not have time (or did not put much effort into) the presentation.
 ![](/assets/pimp-ppt/01-image-dump-small.png)
 <br>Therefore, it can be a good idea to stretch the image so that it covers the whole slide.
@@ -30,7 +30,7 @@ How to do it:
 * Left-click on the image, so that it is marked
 * Drag the image at the edges until it fits the whole slide 
 
-## Vertically aligned images
+# Vertically aligned images
 Handling images that are vertically aligned can be a bit more tricky to stretch. At first, let's see how the original image looks like:
 ![](/assets/pimp-ppt/03-vertical-image-original-small.png)
 
@@ -50,7 +50,7 @@ How to do it:
 
 In this example, I chose a golf theme, so a blurry green background seems kinda suitable.
 
-## Using effects
+# Using effects
 Powerpoint provides a variety of artistic effects that can be applied on images. My personal favourite is the blur effect. It makes the image look a bit fuzzy, so it gives more room for other elements on the slide, such as text:<br>
 ![](/assets/pimp-ppt/06-image-blur-small.png)
 
@@ -63,7 +63,7 @@ How to do it:
 
 ![](/assets/pimp-ppt/07-artistic-effect-small.png)
 
-## Shapes and text on top of the image
+# Shapes and text on top of the image
 If you want to place text on top of such a slide, it can be a good idea to place that text inside a shape. This makes the text more readable, especially if the background is quite colorful.
 ![](/assets/pimp-ppt/08-shape-over-image-solid.png)
 
@@ -81,19 +81,27 @@ Alternatively you can make the shape's background a bit transparent instead of s
 Or why not use a circle instead of a rectangle?!
 ![](/assets/pimp-ppt/11-shape-over-image-circle.png)
 
-# Showing code in your presentation
+## Showing code in your presentation
 Depending of the topic of your preentation, you might want to present some code in the slides.
 First let's have a look at what the code looks like in the IDE.
 ![](/assets/pimp-ppt/12-original-code-from-intellij.png)
  
-## Straightforward copy
+# Straightforward copy
 Copy/paste might actually work okay, at least on a slide with white background.<br>
 ![](/assets/pimp-ppt/13-code-on-white-slide.png)
 
 On a black background however, it looks quite bad as the curly brackets are turned to black and are not visible.<br>
 ![](/assets/pimp-ppt/14-code-on-black-slide.png)
 
-## Black background
-TBD
-## Using screencast
-TBD
+# Using a syntax highlighter
+If you still want to use a black background, a syntax highlighter could be helpful:
+![](/assets/pimp-ppt/15-code-from-highlighter.png)
+
+How to do it:
+
+* Go to an online syntax highlighter and paste your code
+* Make a screenshot of the result
+* Create a slide with black background
+* Insert the screenshot
+
+

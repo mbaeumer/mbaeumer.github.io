@@ -75,11 +75,12 @@ How to do it:
 * On the right side, select `Solid fill` and choose a color (see screenshot below)
 ![](/assets/pimp-ppt/09-shape-solid-color.png)
 
-Alternatively you can make the shape's background a bit transparent instead of solid:
+<br>Alternatively you can make the shape's background a bit transparent instead of solid:
 ![](/assets/pimp-ppt/10-shape-over-image-transparent.png)
 
-Or why not use a circle instead of a rectangle?!
+<br>Or why not use a circle instead of a rectangle?!
 ![](/assets/pimp-ppt/11-shape-over-image-circle.png)
+
 
 ## Showing code in your presentation
 Depending of the topic of your preentation, you might want to present some code in the slides.
@@ -99,9 +100,19 @@ If you still want to use a black background, a syntax highlighter could be helpf
 
 How to do it:
 
-* Go to an online syntax highlighter and paste your code
+* Go to an online syntax highlighter (see some links below) and paste your code
 * Make a screenshot of the result
 * Create a slide with black background
 * Insert the screenshot
 
+# Using a sreencast
+Another alternative is to create a screenshot when writing the code and then you can insert the video in your slides.<br>
+Doing so could make the the presentation more lively (everybody likes to watch shorter clips). A downside though is that the presentation can get really large.
 
+## Further resources
+
+* [pixabay.com](http://www.pixabay.com)
+* [unsplash.com](http://www.unsplash.com)
+* [SlidesCodeHighlighter on github](https://romannurik.github.io/SlidesCodeHighlighter)
+* [another highlighter on github](https://emn178.github.io/online-tools/syntax_highlight.html)
+* [highlighter on pinetools.com](https://pinetools.com/syntax-highlighter)

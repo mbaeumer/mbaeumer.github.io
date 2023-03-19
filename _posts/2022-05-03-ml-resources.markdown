@@ -8,7 +8,7 @@ categories: jekyll update
 Here are some links related to my talk at JFokus 2022 in Stockholm:<br>
 
 # Potential data sources:<br>
-[fivethirtyeight (data from sports, politics etc)]([http://data.fivethirtyeight.com)<br>
+[fivethirtyeight (data from sports, politics etc)](http://data.fivethirtyeight.com)<br>
 [github.com/buzzfeednews](http://github.com/buzzfeednews)<br>
 [kaggle.com/datasets](http://kaggle.com/datasets)<br>
 [opendata.socrata.com](http://opendata.socrata.com)<br>

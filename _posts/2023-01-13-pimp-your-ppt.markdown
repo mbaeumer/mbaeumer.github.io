@@ -16,17 +16,17 @@ There are at least two good sources that provide plenty images for free:
 * [pixabay.com](http://www.pixabay.com)
 * [unsplash.com](http://www.unsplash.com)
 
-A picture says more than thousand ways! Indeed, a suitable image can help you to convey your message. A part from that, images are more entertaining than a lot of text during your presentation.
+A picture says more than thousand words! Indeed, a suitable image can help you to convey your message. Apart from that, images are more entertaining than a lot of text during your presentation.
 
 # Stretching the image
-Of course, one could simply use the image as-is and paste it into the slide. However, this often looks quite sloppy, it seems that the presenter did not have time (or did not put much effort into) the presentation.
+Of course, one could simply use the image as-is and paste it into the slide. However, this often looks quite sloppy, it seems that the presenter did not have time or did not put much effort into the presentation.<br>
 ![](/assets/pimp-ppt/01-image-dump-small.png)
 <br>Therefore, it can be a good idea to stretch the image so that it covers the whole slide.
 ![](/assets/pimp-ppt/02-image-stretched-small.png)
 
 How to do it:
 
-* Insert the image in to the slide'
+* Insert the image in to the slide
 * Left-click on the image, so that it is marked
 * Drag the image at the edges until it fits the whole slide 
 
